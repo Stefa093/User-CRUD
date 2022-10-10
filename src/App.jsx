@@ -95,6 +95,7 @@ function App() {
           deleteUserById={deleteUserById}
           setUpdateInfo={setUpdateInfo}
           setFormIsClosed={setFormIsClosed}
+          setOpenDelete={setOpenDelete}
           />
           )
         )

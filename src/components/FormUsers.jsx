@@ -43,7 +43,7 @@ const FormUsers = ({
   return (
     <form className="form" onSubmit={handleSubmit(submit)}>
         <div>
-            <i onClick={handleCloseForm} class='form__x bx bx-x'></i>
+            <i onClick={handleCloseForm} className='form__x bx bx-x'></i>
         </div>
       <h2 className="form__title">
         {updateInfo ? "Update User" : "Create User"}

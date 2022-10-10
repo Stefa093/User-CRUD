@@ -11,7 +11,7 @@ const UserCard = ({ user, deleteUserById, setUpdateInfo, setFormIsClosed, setOpe
 
   const handleDel = (id) => {
     deleteUserById(id)
-    setOpenDelete(true)
+    setOpenDelete(false)
   }
 
   return (

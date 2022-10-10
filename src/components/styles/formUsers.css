@@ -57,7 +57,7 @@
     color: #adb5c7;
 }
 
-.form__btn, .del__btn {
+.form__btn {
     width: 100%;
     padding: 10px;
     border: 1px solid #ccc;
@@ -68,7 +68,18 @@
     transition: filter 0.3s ease;
 }
 
+.del__btn {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #D85D5D;
+    color: white;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: filter 0.3s ease;
+}
+
 .form__btn:hover, .del__btn:hover {
-    filter: brightness(1.2);
+    filter: brightness(1.1);
     transition: filter 0.3s ease;
 }
